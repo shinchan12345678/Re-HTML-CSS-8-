@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.lists {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.lists p {
+  padding: 20px 20px 20px;
+}
+
+.lists p:nth-child(odd) {
+  background-color: rgb(101, 106, 106);
+}
+
+.boxs {
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+
+.box:nth-child(3n) {
+  margin-right: 0;
+}
+
+.box:nth-child(4n+1) {
+  background-color: orange;
+}
+
+
